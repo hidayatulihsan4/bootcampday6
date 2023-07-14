@@ -1,0 +1,49 @@
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .testimonial h1 {
+    margin: 30px;
+  }
+  
+  .testimonial .under {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card {
+    width: 280px;
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .card img {
+    width: 100%;
+    object-fit: cover;
+    height: 180px;
+  }
+  
+  .card .quote {
+    color: black;
+  }
+  
+  .card .author {
+    text-align: end;
+  }
+  
+  @media only screen and (max-width: 340px) {
+    .card {
+      width: 100%;
+    }
+  
+    .testimonial h1 {
+      font-size: large;
+    }
+  }

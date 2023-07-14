@@ -2,37 +2,38 @@
   <head>
     <title>Detail Project</title>
     <link rel="icon" href="image/brandred.png" />
-    <script
-      src="https://kit.fontawesome.com/d0ff47b7d6.js"
-      crossorigin="anonymous"
-    ></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/all.css" />
-    <link rel="stylesheet" href="css/nav.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/contact.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/testimonial.css">
+    <script src="https://kit.fontawesome.com/d0ff47b7d6.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <nav>
-        <ul>
-          <li><img src="image/brandred.png" alt="logo" /></li>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="project.html">My Project</a></li>
-          <li><a href="blog.html">Testimonial</a></li>
-        </ul>
-        <ul>
-          <li>
-            <a class="contact" href="contact.html">Contact Me</a>
-            <button class="hamburger" onclick="openHamburger()">
-                <i class="fa-solid fa-bars fa-xl" style="color: #000000"></i>
-              </button>
+      <ul>
+        <li><img src="image/brandred.png" alt="logo" /></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="project.html">My Project</a></li>
+        <li><a href="testimonial.html">My Testimonials</a></li>
+      </ul>        
+          <div class="nav-right">
+            <ul><a href="contact.html">
+                <button>Contact Me</button>
+            </a>
+            <li> <button class="hamburger" onclick="openHamburger()">
+              <i class="fa-solid fa-bars fa-xl" style="color: #000000"></i>
+            </button>
           </li>
         </ul>
-      </nav>
-    <div class="hamburger" onclick="buttonHamburger()">
+      </div>
+    </nav>
+    <div class="hamburger" id="hamburger">
       <a href="index.html">Home</a>
-      <a href="project.html">My Blog</a>
+      <a href="project.html">My Project</a>
       <a href="contact.html">Contact</a>
+      <a href="testimonial.html">My Testimonials</a>
     </div>
     <div class="container">
       <h1>Dumbways Web App</h1>

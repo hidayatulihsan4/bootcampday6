@@ -7,22 +7,35 @@
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/all.css">
     <link rel="stylesheet" href="css/contact.css">
-    <title>Day 6</title>
+    <link rel="stylesheet" href="css/testimonial.css">
+    <script src="https://kit.fontawesome.com/d0ff47b7d6.js" crossorigin="anonymous"></script>
+    <title>Day 7</title>
 </head>
 <body>
     <nav>
         <ul>
-            <li><img src="image/brandred.png" alt=""></li>
-            <li><a href="index.html" class="nav-home">Home</a></li>
-            <li><a href="project.html">My Project</a></li>
-            <li><a href="blog.html">Testimonial</a></li>
-        </ul>
-        <div class="nav-right">
-            <a href="contact.html">
-                <button>Contact Me</button>
-            </a>
+          <li><img src="image/brandred.png" alt="logo" /></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="project.html">My Project</a></li>
+          <li><a href="testimonial.html">My Testimonials</a></li>
+        </ul>        
+            <div class="nav-right">
+              <ul><a href="contact.html">
+                  <button>Contact Me</button>
+              </a>
+              <li> <button class="hamburger" onclick="openHamburger()">
+                <i class="fa-solid fa-bars fa-xl" style="color: #000000"></i>
+              </button>
+            </li>
+          </ul>
         </div>
-    </nav>
+      </nav>
+      <div class="hamburger" id="hamburger">
+        <a href="index.html">Home</a>
+        <a href="project.html">My Project</a>
+        <a href="contact.html">Contact</a>
+        <a href="testimonial.html">My Testimonials</a>
+      </div>
     <br>
     <div class="container">
         <div class="container-content">
