@@ -1,0 +1,154 @@
+nav {
+    display: flex;
+    background-color: rgb(234, 234, 234);
+    height: 50px;
+    padding: 5px;
+}
+
+nav ul {
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: center; */
+    height: 100%;
+    gap: 20px;
+}
+
+nav ul img {
+    width: 50px;
+    height: 30px;
+    margin-top: 7px;
+    object-fit: contain;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+nav ul li a {
+    white-space: nowrap;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.nav-home {
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: chocolate;
+}
+
+.nav-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 30px;
+    width: 100%;
+}
+
+.nav-right button {
+    border-radius: 10px;
+    border-style: none;
+    cursor: pointer;
+    padding: 7px;
+    padding-left: 20px; 
+    padding-right: 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(17, 15, 15);
+}
+
+.nav-right button:hover {
+    color: chocolate;
+    background-color: black;
+    
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%; 
+
+}
+
+.checkbox-group .checkbox-list{
+        margin-top: 10px;
+        display: inline-table;
+        grid-template-columns: repeat(2, 2fr);
+}
+
+.form-container {
+    max-width: 600px; 
+    padding: 20px; 
+    background-color: #f0f0f0; 
+    border-radius: 10px;
+  }
+
+  .box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 30px;
+
+  }
+  .box-card{
+    text-decoration: solid;
+    color: black;
+
+
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
+    text-align: center;
+    gap: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .card img {
+    border-radius: 10px 10px 0 0;
+  }
+
+.card{
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  background-color: gray;
+  padding: 15px;
+  gap: 15px;
+  box-shadow: 0 0 10px gray;
+  border-radius: 7px;
+  margin: 10px;
+}
+ .card button:hover{
+    color: chocolate;
+    background-color: black;
+ }
+ .myproject{
+    text-align: center;
+    background-color: lightgrey;
+
+ }
+ nav ul {
+    display: flex;
+    align-items: center;
+  }
+  
+  nav ul li {
+    margin-right: 10px;
+  }
+  
+  .hamburger {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+  }
+  

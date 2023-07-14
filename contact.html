@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <title>Task 6</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><img src="image/brandred.png" alt=""></li>
+            <li><a href="index.html" class="nav-home">Home</a></li>
+            <li><a href="contact.html">My Project</a></li>
+            <li><a href="blog.html">Testimonial</a></li>
+        </ul>
+        <div class="nav-right">
+            <a href="contact.html">
+                <button>Contact Me</button>
+            </a>
+        </div>
+    </nav>
+    <div class="header">
+        <h1>GET IN TOUCH</h1>
+    </div>
+    <div class="contact-container">
+        <form action="#" class="form-container">
+            <div>
+                <label for="input-name">Name</label>
+                <input type="text" id="input-name">
+            </div>
+            <div>
+                <label for="input-email">Email</label>
+                <input type="email" id="input-email">
+            </div>
+            <div>
+                <label for="input-phone">Phone Number</label>
+                <input type="text" id="input-phone">
+            </div>
+            <div>
+                <label for="input-subject">Subject</label>
+                <select name="" id="input-subject">
+                    <option value="">Choose One</option>
+                    <option >Frontend Developer</option>
+                    <option >Backend Developer</option>
+                    <option >Fullstack Developer</option>
+                </select>  
+            </div>
+            <div>
+                <label for="input-message">Your Message</label>
+
+                <textarea name="" id="input-message" cols="15" rows="5"></textarea>
+            </div>
+            <div>
+                <button type="submit" class="btn-submit" onclick="submitData(event)">Submit</button>
+                  </div>
+              </form>
+           </div>
+        <script src="js/contact.js"></script>
+        <script src="js/blog.js"></script>
+    </body>
+</html>
